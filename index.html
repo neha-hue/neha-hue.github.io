@@ -16,23 +16,14 @@
         <li><a class="nav-link projects" href="#projects">PROJECTS</a></li>
         <li><a class="nav-link contact" href="#contact">CONTACT</a></li>
         <li><a class="nav-link resume" href="#"></a></li>
-        <a
-          id="resume-button-1"
-          onclick="window.open('https://drive.google.com/file/d/13jkqwMbkyN8YcAOpMxvF697_-RAyrC2H/view?usp=share_link', '_blank');"
-          download=""
-          >Resume</a
-        >
+       <a id="resume-button-1" href="./files/NEHA_JAISWAL_Resume.pdf" download="">Resume1</a>
+        
       </ul>
     </nav>
     <!-------------------- HOME ---------------------->
     <section id="home">
       <img src="IMG-20230125-WA0004 (4).jpg" class="home-img" alt="#" />
-      <a
-      id="resume-link-2"
-        onclick="window.open('https://drive.google.com/file/d/13jkqwMbkyN8YcAOpMxvF697_-RAyrC2H/view?usp=share_link', '_blank');"
-        download=""
-        >Resume2</a
-      >
+      <a id="resume-button-2" href="./files/NEHA_JAISWAL_Resume.pdf" download="">Resume2</a>
       <!-- <button id="resume-button-2"></button> -->
     </section>
     <!-------------------- ABOUT ---------------------->
@@ -51,7 +42,7 @@
           src="https://azpanel.azilen.com/uploads/everything_must_know_spring_boot_application_scratch_12_8c4e62d4fe.jpg"
           alt="spring_boot.jpg"
         />
-        <h5 class="skills-card-name">Node JS</h5>
+        <h5 class="skills-card-name">Spring Boot</h5>
       </div>
       <div class="skills-card">
         <img
@@ -59,7 +50,7 @@
           src="https://azpanel.azilen.com/uploads/everything_must_know_spring_boot_application_scratch_12_8c4e62d4fe.jpg"
           alt="spring_boot.jpg"
         />
-        <h5 class="skills-card-name">Express JS</h5>
+        <h5 class="skills-card-name">Spring Boot</h5>
       </div>
       <div class="skills-card">
         <img
@@ -67,7 +58,7 @@
           src="https://azpanel.azilen.com/uploads/everything_must_know_spring_boot_application_scratch_12_8c4e62d4fe.jpg"
           alt="spring_boot.jpg"
         />
-        <h5 class="skills-card-name">Mongo DB</h5>
+        <h5 class="skills-card-name">Spring Boot</h5>
       </div>
     </section>
     <!-------------------- PROJECTS ---------------------->
@@ -121,11 +112,7 @@
     </section>
     <!-------------------- RESUME ---------------------->
     <section id="resume">
-      <a
-      id="resume-link-1"
-        onclick="window.open('https://drive.google.com/file/d/13jkqwMbkyN8YcAOpMxvF697_-RAyrC2H/view?usp=share_link', '_blank');"
-        download=""
-        >Resume2</a>
+      <a id="resume-link-1" href="./files/NEHA_JAISWAL_Resume.pdf" download="">Resume3</a>
       <!-- <button id="resume-button-1"></button> -->
     </section>
     <!-------------------- GitHUB ---------------------->
@@ -133,19 +120,35 @@
       <h1>GitHub React-Activity-Calendar</h1>
       <img
         id="github-streak-stats"
-        src="https://camo.githubusercontent.com/56316d9848aa8eafa4822a7b2aa537d02f280e671c46c675e4fec98ab9345abf/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d6e6568616a61697377616c7326"
+        src="https://github-readme-streak-stats.herokuapp.com?user=nehajaiswals&theme=radical&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
         alt="streakstat"
       />
       <img
         id="github-top-langs"
-        src="https://camo.githubusercontent.com/e241b2bbfafb72ae94083fb94bd21908fcaf9086925127b17772a2a70707c490/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d6e6568616a61697377616c732673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=nehajaiswals&theme=outrun"
         alt="top_languages"
       />
       <img
         id="github-stats-card"
-        src="https://camo.githubusercontent.com/4eb885a8be7005ed744aa3c36baba27e47208b4833f3228195ff78468c39cdaa/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6e6568616a61697377616c732673686f775f69636f6e733d74727565266c6f63616c653d656e"
+        src="https://github-readme-stats.vercel.app/api?username=nehajaiswals&count_private=true"
         alt="stat-card"
       />
     </section>
   </body>
 </html>
+<script>
+  document.getElementById('resume-button-1').addEventListener("click",()=>{
+    console.log("OPENinig.....")
+    window.open("https://drive.google.com/file/d/13jkqwMbkyN8YcAOpMxvF697_-RAyrC2H/view?usp=share_link", "_blank");
+  })
+
+  document.getElementById('resume-link-1').addEventListener("click",()=>{
+    console.log("OPENinig.....")
+    window.open("https://drive.google.com/file/d/13jkqwMbkyN8YcAOpMxvF697_-RAyrC2H/view?usp=share_link", "_blank");
+  })
+
+  document.getElementById('resume-button-2').addEventListener("click",()=>{
+    console.log("OPENinig.....")
+    window.open("https://drive.google.com/file/d/13jkqwMbkyN8YcAOpMxvF697_-RAyrC2H/view?usp=share_link", "_blank");
+  })
+</script>

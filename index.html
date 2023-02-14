@@ -7,6 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio website</title>
   <link rel="stylesheet" href="style.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+  integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+  integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -46,14 +57,33 @@
 
       <div id="home" class="header-text">
         <!-- <p>JAVA BACKEND DEVELOPER</p> -->
-        <h1>Hi,I'm <span> Neha</span> <br>Jaiswal from Maharashtra</h1>
+        <!-- <h1 >Hi,I'm <span class="type"> Neha</span> <br>Jaiswal from Maharashtra</h1>
         <h4>A Java Backend Developer with a specialization in Java,Spring Boot,Hibernate,Maven,Mysql,HTML,CSS,Javascript
           Excellent Teamwork , self-motivated and curious, with a keen interest in building user-centric products.
-        </h4>
+        </h4> -->
         <!-- <button class="btn btn-primary"><a download="" href="files/NEHA_JAISWAL_Resume.pdf" target="_blank">Download
 
             cv</a></button> -->
             
+
+            <div class="container">
+              <div class="row">
+               
+                <div class="about-col-2">
+                  <!-- <h1 class="sub-title">About Me</h1>
+                  <h1 id="user-detail-name">Neha</h1> -->
+                  <h1 >Hi,I'm <span class="type"> Neha</span> <br>Jaiswal from Maharashtra</h1>
+        <p>A Java Backend Developer with a specialization in Java,Spring Boot <br/>Excellent Teamwork , self-motivated and curious, with a keen interest in building user-centric products.
+        </p>
+                  
+              
+                </div>
+                <div class="about-col-1 imk">
+                  <img src="images/slazzer-edit-image.png" alt="">
+                </div>
+        
+              </div>
+            </div>
             <a id="resume-button-2" href="files/NEHA_JAISWAL_Resume.pdf" download="">Resume2</a>
       </div>
 
@@ -153,9 +183,10 @@
 
 
   <div id="projects">
-    <div class="container">
+    <div class="container ">
       <h1 class="sub-title">My Projects</h1>
-      <div class="project-list">
+      <div class="project-list  owl-carousel owl-theme">
+     
         <div class="project project-card">
           <img src="images/project1.png" alt="">
           <div class="layer">
@@ -181,6 +212,7 @@
                 class="fa-solid fa-link"></i>Website</a>
           </div>
         </div>
+      
 
         <div class="project project-card">
           <img src="images/project1.png" alt="">
@@ -208,6 +240,10 @@
                 class="fa-solid fa-link"></i>Website</a>
           </div>
         </div>
+
+     
+
+       
 
       </div>
     </div>
@@ -218,10 +254,10 @@
 
   <div id="githubs">
     <div class="container react-activity-calendar">
-      <h1 class="sub-title">Github</h1>
+      <h1 class="sub-title">GitHub React-Activity-Calendar</h1>
       <div class="github-list">
         <div class="github">
-          <h1>GitHub React-Activity-Calendar</h1>
+          <!-- <h1>GitHub React-Activity-Calendar</h1> -->
           <img
           id="github-streak-stats"
           src="https://github-readme-streak-stats.herokuapp.com?user=nehajaiswals&theme=radical&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
@@ -283,8 +319,51 @@
         </div>
       </div>
     </div>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+ 
+  
+  
   </div>
+
+  <!-- -----------------------carousel------------------------------------- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 2
+            }
+        }
+    })
+  </script>
+  
+
+
+
+
+
+
+
+
+
+
 <!-- --------------------resume-------------- -->
   <section id="resume">
     <a id="resume-link-1" href="files/NEHA_JAISWAL_Resume.pdf" download="">Resume</a>
@@ -292,7 +371,7 @@
   </section>
 
   <div class="copyright">
-    <p>Copyright &#169 Neha.Made with<i class="fa-solid fa-heart"></i> by Neha Jaiswal</p>
+    <p>Copyright &#169 Made with <i class="fa-solid fa-heart"></i> by Neha Jaiswal</p>
   </div>
   <script>
     var sidemeu = document.getElementById("sidemenu");

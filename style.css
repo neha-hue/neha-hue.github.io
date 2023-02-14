@@ -100,7 +100,7 @@ nav {
     margin: 10px;
     text-align: center;
     font-size: 25px;
-    background-color: #151515;
+    background-color: #060606;
     padding: 10px 5px;
 }
 
@@ -332,11 +332,15 @@ nav ul li a:hover::after {
 
 .github-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 
     grid-gap: 40px;
     margin-top: 50px;
 
+}
+.calendar{
+    height: 5vh;
+    
 }
 
 .github {

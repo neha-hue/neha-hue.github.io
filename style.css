@@ -81,11 +81,21 @@ body {
 
 nav {
     display: flex;
+    background-color: #080808;
 
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    width: 100%;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
 }
+
 
 .logo {
     width: 140px;
@@ -428,7 +438,36 @@ form .btn2 {
 
 }
 
+/* -----------------resume button---------------- */
+#resume-button-2,#resume-link-1{
+    display: block;
+    height: 50px;
+    width: 250px;
+    background: #ff004f;
+    text-align: center;
+    padding: 5px 10px;
+    /* position: absolute; */
+    /* margin: auto; */
+    margin-top: 5px;
+    text-decoration: none;
+    list-style: none;
+    left: 0;
+    right: 0;
+    border-radius: 15px;
+    color: #fff;
+}
 
+#resume-link-1{
+    font-size: 25px;
+}
+
+#contact-phone ,#contact-email{
+    text-decoration: none;
+    color: #ff004f;
+    font-size: 15px;
+    padding: 5px 10px;
+
+}
 /* --------------------css for small screen------- */
 
 nav .fas {

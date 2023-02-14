@@ -95,6 +95,14 @@ nav {
     z-index: 1;
     
 }
+/* --------------------skill-card-name------------------ */
+.skills-card-name{
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #151515;
+    padding: 10px 5px;
+}
 
 
 .logo {

@@ -332,16 +332,16 @@ nav ul li a:hover::after {
 
 .github-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
     grid-gap: 40px;
     margin-top: 50px;
 
 }
-.calendar{
+/* .calendar{
     height: 5vh;
     
-}
+} */
 
 .github {
     border-radius: 10px;

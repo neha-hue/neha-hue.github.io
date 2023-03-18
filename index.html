@@ -58,7 +58,7 @@ href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-ca
           <li><a href="#githubs">GITHUB</a></li>
           <li><a  class="nav-link contact" href="#contact">CONTACT</a></li>
           <!-- <li><a class="nav-link resume" href="#"></a></li> -->
-          <li><a id="resume-button-1" class="nav-link resume" href="files/NEHA_JAISWAL_Resume.pdf" download="" target="_blank">Resume</a></li>
+          <li><button id="resume-button-1" onclick="resume()"><a id="resume-link-1" class="nav-link resume" href="files/NEHA_JAISWAL_Resume.pdf" download="NEHA-RESUME-DOWNLOAD" target="_blank">Resume</a></button></li>
           <i class="fas fa-times" onclick="closemenu()"></i>
         </ul>
         <i class="fas fa-bars" onclick="openmenu()"></i>
@@ -361,7 +361,7 @@ href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-ca
             margin: 10,
             nav: false,
             autoplay: true,
-            autoplayTimeout: 8000,
+            autoplayTimeout: 7000,
             dots: false,
             responsive: {
                 0: {
@@ -416,20 +416,23 @@ href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-ca
 
 
 <script>
-  document.getElementById('resume-button-1').addEventListener("click",()=>{
-    console.log("OPENinig.....")
-    window.open("https://drive.google.com/file/d/13jkqwMbkyN8YcAOpMxvF697_-RAyrC2H/view?usp=share_link", "_blank");
-  })
+  // document.getElementById('resume-button-1').addEventListener("click",()=>{
+  //   console.log("OPENinig.....")
+  //   window.open("https://drive.google.com/file/d/13jkqwMbkyN8YcAOpMxvF697_-RAyrC2H/view?usp=share_link", "_blank");
+  // })
 
-  document.getElementById('resume-link-1').addEventListener("click",()=>{
-    console.log("OPENinig.....")
-    window.open("https://drive.google.com/file/d/13jkqwMbkyN8YcAOpMxvF697_-RAyrC2H/view?usp=share_link", "_blank");
-  })
+  // document.getElementById('resume-link-1').addEventListener("click",()=>{
+  //   console.log("OPENinig.....")
+  //   window.open("https://drive.google.com/file/d/13jkqwMbkyN8YcAOpMxvF697_-RAyrC2H/view?usp=share_link", "_blank");
+  // })
 
-  document.getElementById('resume-button-2').addEventListener("click",()=>{
-    console.log("OPENinig.....")
+  // document.getElementById('resume-button-2').addEventListener("click",()=>{
+  //   console.log("OPENinig.....")
+  //   window.open("https://drive.google.com/file/d/13jkqwMbkyN8YcAOpMxvF697_-RAyrC2H/view?usp=share_link", "_blank");
+  // })
+  function resume(){
     window.open("https://drive.google.com/file/d/13jkqwMbkyN8YcAOpMxvF697_-RAyrC2H/view?usp=share_link", "_blank");
-  })
+  }
 </script>
 
 

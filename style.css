@@ -1,9 +1,12 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 4px;
     font-family: monospace;
     box-sizing: border-box;
     text-decoration: none;
+    /* color: white; */
+    
+   
 }
 
 html {
@@ -205,7 +208,9 @@ nav ul li a:hover::after {
 .sub-title {
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    /* color: #fff; */
+    text-align: center;
+    color: #ff004f;
 }
 
 .tab-titles {
@@ -298,7 +303,7 @@ nav ul li a:hover::after {
 
 .project-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 
     grid-gap: 40px;
     margin-top: 50px;
@@ -322,6 +327,10 @@ nav ul li a:hover::after {
 .project a {
     text-align: center;
     margin: auto;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* ----------------------github section---------------------------------- */
@@ -455,9 +464,12 @@ form .btn2 {
     display: block;
     height: 50px;
     width: 250px;
-    background: #ff004f;
+    /* background: #ff004f; */
     text-align: center;
     padding: 5px 10px;
+    font-size: 20px;
+    /* color: white; */
+    font-weight: bold;
     /* position: absolute; */
     /* margin: auto; */
     margin-top: 5px;
@@ -466,7 +478,8 @@ form .btn2 {
     left: 0;
     right: 0;
     border-radius: 15px;
-    color: #fff;
+    /* color: #fff; */
+    color: #ff004f;
 }
 
 #resume-link-1{
